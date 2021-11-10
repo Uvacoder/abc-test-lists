@@ -1,0 +1,11 @@
+.select {
+    appearance: none;
+    border: none;
+    border-bottom: 1px solid $color-black;
+    background: $color-white;
+    @include spacing(padding, top, $size-12);
+    @include spacing(padding, bottom, $size-8);
+    font-family: $sans;
+    font-size: $size-16;
+    border-radius: 0;
+}

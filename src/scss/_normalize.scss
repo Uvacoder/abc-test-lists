@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: $sans;
+    font-weight: 400;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+body,
+html {
+    min-height: 100%;
+
+    #app {
+        @include spacing(padding, all, $size-32);
+    }
+}

@@ -1,0 +1,14 @@
+.header {
+    &--main {
+        @include spacing(margin, bottom, $size-64);
+
+        a {
+            font-size: $size-36;
+            font-weight: 500;
+
+            &:not(:last-child) {
+                @include spacing(margin, right, $size-32);
+            }
+        }
+    }
+}

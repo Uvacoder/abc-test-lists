@@ -1,0 +1,57 @@
+.list {
+    list-style: none;
+    height: 100%;
+
+    &--pinned {
+        position: relative;
+        @include spacing(margin, right, $size-8);
+
+        &::before {
+            content: '';
+            width: calc(100% + #{$size-24});
+            height: calc(100% + #{$size-24});
+            background: rgba($color-black, 0.03);
+            position: absolute;
+            left: -$size-12;
+            top: -$size-12;
+            z-index: -1;
+            border-radius: 8px;
+        }
+    }
+
+    &__header {
+        display: flex;
+            justify-content: space-between;
+            align-items: center;
+        border-bottom: 2px solid $color-black;
+        @include spacing(padding, bottom, $size-8);
+
+        &__title,
+        &__category {
+            font-size: $size-24;
+        }
+
+        &__category {
+            font-size: $size-20;
+            color: rgba($color-black, 0.3);
+        }
+    }
+
+    &__item {
+        border-bottom: 1px solid rgba($color-black, 0.3);
+        @include spacing(padding, y, $size-12);
+
+        &__title {
+            font-size: $size-16;
+        }
+
+        &__price {
+            @include spacing(margin, left, $size-8);
+            color: rgba($color-black, 0.5);
+        }
+
+        &:hover {
+            border-bottom-color: $color-black;
+        }
+    }
+}

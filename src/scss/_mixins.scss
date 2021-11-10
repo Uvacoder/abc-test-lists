@@ -1,0 +1,19 @@
+@mixin spacing($type, $direction: 'all', $size: $size-16) {
+    @if $direction == all {
+        #{$type}: $size;
+    } @else if $direction == top {
+        #{$type}-top: $size;
+    } @else if $direction == right {
+        #{$type}-right: $size;
+    } @else if $direction == bottom {
+        #{$type}-bottom: $size;
+    } @else if $direction == left {
+        #{$type}-left: $size;
+    } @else if $direction == x {
+        #{$type}-left: $size;
+        #{$type}-right: $size;
+    } @else if $direction == y {
+        #{$type}-top: $size;
+        #{$type}-bottom: $size;
+    }
+}

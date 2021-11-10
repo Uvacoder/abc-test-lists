@@ -1,0 +1,41 @@
+.button {
+    display: inline-block;
+    font-size: $size-16;
+    font-family: $sans;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    @include spacing(padding, x, $size-12);
+    @include spacing(padding, bottom, $size-6 / 2);
+    @include spacing(padding, top, $size-8 / 2);
+    border: 1px solid transparent;
+
+    &--primary {
+        color: $color-white;
+        background: $color-black;
+
+        &:hover {
+            background: rgba($color-black, 0.8);
+        }
+    }
+
+    &--secondary {
+        color: $color-black;
+        background: rgba($color-black, 0.2);
+
+        &:hover {
+            background: rgba($color-black, 0.3);
+        }
+    }
+
+    &--tertiary {
+        color: $color-black;
+        background: $color-white;
+        border: 1px solid rgba($color-black, 0.2);
+
+        &:hover {
+            background: rgba($color-black, 0.2);
+            border: 1px solid transparent;
+        }
+    }
+}

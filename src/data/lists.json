@@ -1,0 +1,103 @@
+[
+    {
+        "title" : "Clothing",
+        "category": "Shopping",
+        "pinned": false,
+        "items" : [
+            {
+                "id": 1,
+                "title" : "Samsøe crewneck"
+            },
+            {
+                "id": 2,
+                "title" : "Samsøe crewneck"
+            },
+            {
+                "id": 3,
+                "title" : "Samsøe crewneck"
+            },
+            {
+                "id": 4,
+                "title" : "Samsøe crewneck"
+            }
+        ]
+    },
+    {
+        "title" : "Magazines",
+        "category": "Shopping",
+        "pinned": false,
+        "items" : [
+            {
+                "id": 5,
+                "title" : "Weekender #36 2021",
+                "price" : {
+                    "amount" : 12,
+                    "currency" : "EUR"
+                }
+            },
+            {
+                "id": 6,
+                "title" : "Bauhaus Zeitschrift #12",
+                "price": {
+                    "amount": 12,
+                    "currency": "EUR"
+                }
+            },
+            {
+                "id": 7,
+                "title" : "System #17 S/S 2021",
+                "price": {
+                    "amount": 33,
+                    "currency": "EUR"
+                }
+            },
+            {
+                "id": 8,
+                "title" : "Deem Journal #2 W/S 2021",
+                "price": {
+                    "amount": 22,
+                    "currency": "EUR"
+                }
+            },
+            {
+                "id": 9,
+                "title" : "Zweikommasieben #23 2021",
+                "price": {
+                    "amount": 16.50,
+                    "currency": "EUR"
+                }
+            },
+            {
+                "id": 10,
+                "title" : "Hercules Universal S/S – Fall 2021",
+                "price": {
+                    "amount": 40,
+                    "currency": "EUR"
+                }
+            },
+            {
+                "id": 11,
+                "title" : "Middle Plane #04 2021",
+                "price": {
+                    "amount": 33,
+                    "currency": "EUR"
+                }
+            }
+        ]
+    },
+    {
+        "title" : "Articles",
+        "category": "Reading",
+        "pinned": true,
+        "items" : [
+            {
+                "id": 12,
+                "title" : "I'M GOING TO MISS YOU"
+            },
+            {
+                "id": 13,
+                "title" : "A 50/50 Layout"
+            }
+        ]
+    }
+]
