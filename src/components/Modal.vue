@@ -18,6 +18,8 @@
                 </div>
             </div>
         </div>
+
+        <slot name="overlay"></slot>
     </div>
 </template>
 

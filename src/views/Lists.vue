@@ -1,5 +1,7 @@
 <template>
     <div class="lists">
+        <EventListener @keydown.27="activeItem = ''" />
+
         <div class="layout">
             <ol class="list" v-for="list in sortedLists" :key="list.title" :class="{ 'list--pinned' : list.pinned }">
                 <header class="list__header">
@@ -17,13 +19,19 @@
         </div>
 
         <Modal :class="{ 'modal--visible': activeItem != '' }"
-         :title="activeItem.title" />
+         :title="activeItem.title">
+            <template v-slot:overlay>
+                <div class="modal__overlay" @click="activeItem  = ''"></div>
+            </template>
+        </Modal>
     </div>
 </template>
 
 <script>
 import lists from '@/data/lists.json';
 import Modal from '@/components/Modal';
+import Button from '@/components/Button';
+import EventListener from '@/components/EventListener';
 
 export default {
     name: 'Home',
@@ -44,7 +52,9 @@ export default {
         }
     },
     components: {
-        Modal
+        Modal,
+        Button,
+        EventListener
     }
 }
 </script>
