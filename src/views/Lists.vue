@@ -19,7 +19,8 @@
         </div>
 
         <Modal :class="{ 'modal--visible': activeItem != '' }"
-         :title="activeItem.title">
+         :title="activeItem.title"
+         :price="activeItem.price">
             <template v-slot:overlay>
                 <div class="modal__overlay" @click="activeItem  = ''"></div>
             </template>
