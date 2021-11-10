@@ -40,6 +40,7 @@
     &__item {
         border-bottom: 1px solid rgba($color-black, 0.3);
         @include spacing(padding, y, $size-12);
+        cursor: pointer;
 
         &__title {
             font-size: $size-16;
