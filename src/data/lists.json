@@ -6,19 +6,20 @@
         "items" : [
             {
                 "id": 1,
-                "title" : "Samsøe crewneck"
+                "title" : "Samsøe Alter crew neck 14082",
+                "price": {
+                    "amount": 139,
+                    "currency": "EUR"
+                }
             },
             {
                 "id": 2,
-                "title" : "Samsøe crewneck"
-            },
-            {
-                "id": 3,
-                "title" : "Samsøe crewneck"
-            },
-            {
-                "id": 4,
-                "title" : "Samsøe crewneck"
+                "title" : "Samsøe Hamal t-shirt 11691",
+                "link": "https://www.samsoe.com/de/herren/bekleidung/t-shirts-und-polo-shirts/kurzarmlig/hamal-t-shirt-11691/M20400034.html?dwvar_M20400034_color=WHITE",
+                "price": {
+                    "amount": 59.00,
+                    "currency": "EUR"
+                }
             }
         ]
     },
@@ -97,6 +98,31 @@
             {
                 "id": 13,
                 "title" : "A 50/50 Layout"
+            }
+        ]
+    },
+    {
+        "title": "Books",
+        "category": "Reading",
+        "pinned": false,
+        "items": [
+            {
+                "id": 13,
+                "title" : "Less but better (Dieter Rams)",
+                "link": "https://gestalten.com/collections/design-fashion/products/less-but-better",
+                "price": {
+                    "amount": 29.90,
+                    "currency": "EUR"
+                }
+            },
+            {
+                "id": 14,
+                "title" : "Less and more (Dieter Rams)",
+                "link": "https://gestalten.com/collections/design-fashion/products/less-and-more-dieter-rams",
+                "price": {
+                    "amount": 69.90,
+                    "currency": "EUR"
+                }
             }
         ]
     }
