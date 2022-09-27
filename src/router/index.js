@@ -1,4 +1,4 @@
-import Vue from 'vue'
+
 import VueRouter from 'vue-router'
 import Lists from '../views/Lists.vue'
 
