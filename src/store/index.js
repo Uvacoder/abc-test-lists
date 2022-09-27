@@ -1,4 +1,4 @@
-import Vue from 'vue'
+import * as Vue from 'vue'
 import Vuex from 'vuex'
 
 Vue.use(Vuex)
